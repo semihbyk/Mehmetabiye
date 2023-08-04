@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+    @Html.TextBox("StudenName") 
+    <input type="submit" value="Sumbit" />
+
+}
+
